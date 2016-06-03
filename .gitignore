@@ -1,6 +1,12 @@
 # Compiled Lua sources
 luac.out
 
+# ignore all
+*
+# except:
+!luarules/gadgets/craig/main.lua
+!luarules/gadgets/craig/genetic_algorithm.lua
+
 # luarocks build files
 *.src.rock
 *.zip
