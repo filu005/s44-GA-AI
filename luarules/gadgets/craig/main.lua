@@ -210,6 +210,7 @@ local function CreateTeams()
 				for _,u in ipairs(units) do
 					if (not Spring.GetUnitIsDead(u)) then
 						local unit = UnitDefs[Spring.GetUnitDefID(u)].name
+						if (unit == 'filhq') then Spring.Echo("jest filhq!") end
 						for _,s in ipairs(sidedata) do
 							if (s.startUnit == unit) then side = s.sideName end
 						end

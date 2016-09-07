@@ -180,6 +180,10 @@ function GAMgr.run()
 		math.randomseed(seed)
 		local best = evolve()
 		Spring.Echo(string.format("Finished!\nBest solution found had the fitness of %d [%s].\n", fitness(best), best))
+		local sidedata = Spring.GetSideData()
+		for _,s in ipairs(sidedata) do
+			Spring.Echo(s.startUnit)
+		end
 end
 
 return GAMgr
