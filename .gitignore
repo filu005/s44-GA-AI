@@ -5,22 +5,46 @@ luac.out
 *
 # except:
 !.gitignore
+!gamedata/
 !gamedata/side_units/
+!gamedata/side_units/f*
 !gamedata/side_armor_defs/
+!gamedata/side_armor_defs/f*
+!icons/
 !icons/fil*
 !LuaIntro/
+!LuaIntro/*
 !luarules/
 luarules/*
-!luarules/configs/*
+!luarules/configs/
+!luarules/configs/craig/
+!luarules/configs/craig/s44
+!luarules/configs/craig/s44/*
+!luarules/configs/side_hq_spawn
+!luarules/configs/side_hq_spawn/f*
+!luarules/configs/side_squad_defs
+!luarules/configs/side_squad_defs/f*
 !luarules/gadgets/
 luarules/gadgets/*
 !luarules/gadgets/craig/
 luarules/gadgets/craig/*
 !luarules/gadgets/craig/main.lua
 !luarules/gadgets/craig/genetic_algorithm.lua
+!luaui/
+!luaui/widgets/
+!luaui/widgets/unit_damage_info.lua
+!scripts/
 !scripts/fil*
+!sidepics/
 !sidepics/fil*
+!unitpics/
 !unitpics/fil*
+!units/
+!units/fil/
+!units/fil/buildings/
+!units/fil/buildings/*
+!units/fil/infantry/
+!units/fil/infantry/*
 !units/fil/*
 
 # ...even if they are in subdirectories
