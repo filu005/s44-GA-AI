@@ -6,6 +6,7 @@ luac.out
 # except:
 !.gitignore
 !gamedata/
+!gamedata/sidedata.lua
 !gamedata/side_units/
 !gamedata/side_units/f*
 !gamedata/side_armor_defs/
@@ -13,6 +14,8 @@ luac.out
 !icons/
 !icons/fil*
 !LuaIntro/
+!LuaIntro/Addons/
+!LuaIntro/Addons/*
 !LuaIntro/*
 !luarules/
 luarules/*
