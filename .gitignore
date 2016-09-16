@@ -13,6 +13,10 @@ luac.out
 !gamedata/side_armor_defs/f*
 !icons/
 !icons/fil*
+!LuaHandler/
+!LuaHandler/*
+!LuaHandler/Utilities/
+!LuaHandler/Utilities/*
 !LuaIntro/
 !LuaIntro/Addons/
 !LuaIntro/Addons/*

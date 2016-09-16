@@ -20,7 +20,7 @@ _G[("%s_VERSION"):format(LUA_NAME:upper())] = LUA_VERSION -- creates LUAUI_VERSI
 
 VFS.DEF_MODE = VFS.RAW_FIRST
 
-Spring.Echo("laduje MAIN!")
+Spring.Echo("laduje MAIN! z katalogu " .. LUA_DIRNAME)
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 --
