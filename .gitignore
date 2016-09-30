@@ -34,6 +34,7 @@ luarules/*
 !luarules/configs/side_squad_defs/f*
 !luarules/gadgets/
 luarules/gadgets/*
+!luarules/gadgets/gasquads.lua
 !luarules/gadgets/mainga.lua
 !luarules/gadgets/GA/
 !luarules/gadgets/GA/*
