@@ -5,6 +5,7 @@ luac.out
 *
 # except:
 !.gitignore
+!launch_spring_GA.py
 !gamedata/
 !gamedata/sidedata.lua
 !gamedata/side_units/
@@ -33,11 +34,15 @@ luarules/*
 !luarules/configs/side_squad_defs/f*
 !luarules/gadgets/
 luarules/gadgets/*
+!luarules/gadgets/mainga.lua
+!luarules/gadgets/GA/
+!luarules/gadgets/GA/*
 !luarules/gadgets/craig/
 luarules/gadgets/craig/*
 !luarules/gadgets/craig/main.lua
 !luarules/gadgets/craig/genetic_algorithm.lua
 !luaui/
+!luaui/main.lua
 !luaui/widgets/
 !luaui/widgets/unit_damage_info.lua
 !scripts/

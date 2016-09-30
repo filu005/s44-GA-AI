@@ -8,6 +8,22 @@ local sidedata = {
 	startUnit = "FILHQ",
 	},
 	{
+	name = "FIL1",
+	startUnit = "FIL1HQ",
+	},
+	{
+	name = "FIL2",
+	startUnit = "FIL2HQ",
+	},
+	{
+	name = "FIL3",
+	startUnit = "FIL3HQ",
+	},
+	{
+	name = "FIL4",
+	startUnit = "FIL4HQ",
+	},
+	{
 	name = "GER",
 	startUnit = "GERHQBunker",
 	},

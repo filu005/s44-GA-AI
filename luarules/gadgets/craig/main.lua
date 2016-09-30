@@ -185,6 +185,10 @@ function gadget:Initialize()
 	Spring.Echo("C.R.A.I.G. initialized")
 end
 
+function gadget:ShutDown()
+	Spring.Echo("exit C.R.A.I.G.")
+end
+
 function gadget:GamePreload()
 	-- This is executed BEFORE headquarters / commander is spawned
 	Log("gadget:GamePreload")

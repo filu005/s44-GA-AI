@@ -18,7 +18,7 @@ require "savetable.lua"
 require "FILsavetable.lua"
 require "keysym.lua"
 require "actions.lua"
-require "Individual.lua"
+-- require "Individual.lua"
 
 --// make a copy of the engine exported enviroment (we use this later for the addons!)
 local EG = {}
@@ -1048,8 +1048,10 @@ require "specialCallinHandlers.lua"
 --// Load game's configfile for this handler
 if VFS.FileExists(LUA_DIRNAME .. "config.lua") then
 	include("config.lua", nil, VFS.ZIP_FIRST)
+	Spring.Echo("zaladowalem " .. LUA_DIRNAME .. "config.lua")
 else
 	include("LuaHandler/config.lua", nil, VFS.ZIP_FIRST)
+	Spring.Echo("zaladowalem LuaHandler/config.lua")
 end
 
 handler:Initialize()

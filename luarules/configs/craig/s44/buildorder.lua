@@ -9,6 +9,27 @@ SQUAD_SIZE = 24
 
 -- Format: factory = { "unit to build 1", "unit to build 2", ... }
 gadget.unitBuildOrder = UnitBag{
+	fil1hq = UnitArray{
+		"filhqengineer",
+		"fil1_platoon",
+	},
+	fil2hq = UnitArray{
+		"filhqengineer",
+		"fil2_platoon",
+	},
+	fil3hq = UnitArray{
+		"filhqengineer",
+		"fil3_platoon",
+	},
+	fil4hq = UnitArray{
+		"filhqengineer",
+		"fil4_platoon",
+	},
+	-- fil1barracks = UnitArray{
+	-- 	"filhqengineer",
+	-- 	"filrifle",
+	-- 	"fil1_platoon", "fil1_platoon",
+	-- },
 	-- Filip
 	filhq = UnitArray{
 		"filhqengineer",
@@ -270,6 +291,22 @@ gadget.unitBuildOrder = UnitBag{
 
 -- Format: side = { "unit to build 1", "unit to build 2", ... }
 gadget.baseBuildOrder = {
+	fil1 = UnitArray{
+		"filbarracks", "filbarracks",
+		"gbrvehicleyard",
+	},
+	fil2 = UnitArray{
+		"filbarracks", "filbarracks",
+		"gbrvehicleyard",
+	},
+	fil3 = UnitArray{
+		"filbarracks", "filbarracks",
+		"gbrvehicleyard",
+	},
+	fil4 = UnitArray{
+		"filbarracks", "filbarracks",
+		"gbrvehicleyard",
+	},
 	fil = UnitArray{
 		"filbarracks", "filbarracks",
 		"gbrvehicleyard",
@@ -369,6 +406,10 @@ gadget.flagCappers = UnitSet{
 
 -- Number of units per side used to cap flags.
 gadget.reservedFlagCappers = {
+	fil1 = 24,
+	fil2 = 24,
+	fil3 = 24,
+	fil4 = 24,
 	fil = 12,
 	gbr = 24,
 	ger = 24,

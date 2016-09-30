@@ -15,7 +15,6 @@ if (table.FILsave) then
   return
 end
 
-
 local indentString = '\t'
 
 local savedTables = {}
@@ -161,6 +160,7 @@ end
 function table.FILsave(t, filename, header)
   local file = io.open(filename, 'w')
   if (file == nil) then
+    Spring.Echo(" ! could not open file: " .. filename .. " !")
     return
   end
   if (header) then
